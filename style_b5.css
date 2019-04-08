@@ -1,0 +1,158 @@
+body {
+    font-family: georgia, serif;
+    margin: 0;
+}
+
+.header {
+    background-color: #0033cc;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.menu ul {
+    list-style-type: none;
+    background-color: #0033cc;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.menu li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 8px 16px;
+}
+
+.menu li a.active {
+    color: black;
+    background-color: #1ab2ff;
+}
+
+.menu li a:hover:not(.active) {
+    color: violet;
+    background-color: #0066ff;
+}
+
+
+
+.menuDropDown {
+    margin-top: 0px;
+    width: 100%;
+    background-color: #1ab2ff;
+    padding: 10px;
+}
+
+h1 {
+    margin-top: 70px;
+    color: blue;
+    text-align: center;
+    padding: 20px;
+}
+
+.table {
+    margin: 10px;
+}
+
+.table th {
+    height: 50px;
+    background-color: cadetblue;
+    color: blue;
+}
+
+.table table, th, td {
+    border: 3px solid blue;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f1f1f1;
+}
+
+.table tr:hover {
+    background-color: lightblue;
+}
+
+.table tr:nth-child(even):hover {
+    background-color: lightblue;
+}
+
+.table table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.thongtin {
+    padding: 20px;
+}
+.phongToAnh {
+    /* position: relative; */
+    display: inline;
+}
+  
+.noiDungPhongToAnh {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    align: right;
+}
+
+.phongToAnh:hover .noiDungPhongToAnh {
+    display: block;
+  }
+
+div.form{
+    border-radius: 10px;
+    background-color: #6fbebe;
+    padding: 30px;
+    width:30%;
+    margin: auto;
+}
+
+.form input[type=text], input[type=date], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form input[type=text]:focus, input[type=date]:focus, select:focus {
+    background-color: lightblue;
+}
+
+.form input[type=submit] {
+    width: 100%;
+    background-color: green;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+input.btn {
+    width: 200px;
+    padding: 14px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+input.btn:hover {
+    background-color: #45a049;
+}

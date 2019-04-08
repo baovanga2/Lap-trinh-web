@@ -1,0 +1,99 @@
+*{
+margin: 0;
+padding: 0;
+}
+.main-menu{
+	font-size: 30px;
+	background-color: #2ecc71;
+	color:white;
+	font-weight: 600;	
+}
+.main-menu ul{
+	list-style: none;
+	margin-left: 25%;
+}	
+.main-menu ul li{
+	background-color: gray;
+	display:inline-block;
+	text-align:center;
+	width: 150px;
+	height: 50px;
+	border: solid 2px white;
+	border-radius:10px;
+	margin-top: 2px;
+	padding-top: 3px;
+	margin-bottom: 2px;
+}
+.main-menu ul li:hover{
+	border: solid 2px white;
+}
+.center{
+	margin-top: 0px;
+	margin-left:50px;
+	}
+input[type="text"], input[type="date"]{
+	width:200px;
+	height:30px;
+	border: solid 2px green;
+	border-radius: 5px;
+	font-size: 15px;
+	margin-bottom: 10px;
+}
+input[type="submit"]{
+	width:200px;
+	height:30px;
+	border: solid 2px green;
+	border-radius: 15px;
+	background-color:green;
+	color:white;
+	font-size: 15px;	
+}
+.btn:hover, .btn:active{
+	background-color:white;
+	color:green;
+	border: solid 2px green	
+	}
+input[type="file"]{
+	width:200px;
+	height:30px;
+	margin-bottom: 10px;
+	font-size: 15px;
+	margin-bottom: 10px;
+}
+label{
+	text-decoration: bold;
+	font-size:20px;
+	margin-bottom: 10px;
+}
+h4{
+	margin-left: 30px;
+	font-size:30px;
+	text-decoration: uppercase;
+	font-weight: 500;
+	color: #0099ff;
+}
+select{
+	width:200px;
+	height:30px;
+	border: solid 2px green;
+	border-radius: 5px;
+	font-size: 15px;
+	margin-bottom: 10px;
+}
+.btn a{
+	text-decoration:none;
+	color: blue;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+tr:nth-child(even){background-color: #f2f2f2}
+th {
+  background-color: #4CAF50;
+  color: white;
+}
